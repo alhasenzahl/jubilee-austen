@@ -123,6 +123,7 @@ header h2 span {
 
 #contact {
 	background-color: #ebebeb;
+	overflow: hidden;
 }
 
 #contact .full-width {
@@ -133,17 +134,18 @@ header h2 span {
 	border: 12px solid #fff;
 }
 
-#contact h2, #email-header, #socialmedia-header, #contact ul {
+.contact-me {
 	padding-left: 115px;
 }
 
 #envelope {
-	padding: 0 10px 0 115px;
+	padding: 0 10px 0 0;
 }
 
-#contact h2 {
+#contact-header {
 	font-family: Lora;
-	font-size: 36px;
+	font-size: 36px; 
+	margin-top: 0;
 }
 
 #email-header {
@@ -171,6 +173,7 @@ header h2 span {
 
 #contact ul li {
 	display: inline-block;
+	margin: 0 38px 0 -38px;
 }
 
 #contact ul img {
